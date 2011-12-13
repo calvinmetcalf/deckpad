@@ -9,4 +9,6 @@ deck.js presentations with docpad
 	
 mostly writen in jade, feel free to use something else
 
-thanks to the creaters of [docpad](https://github.com/balupton/docpad) [deck.js](https://github.com/imakewebthings/deck.js) and [BIG](https://github.com/tmcw/big)
+thanks to [balupton](https://github.com/balupton) for [docpad](https://github.com/balupton/docpad) [imakewebthings](https://github.com/imakewebthings) for [deck.js](https://github.com/imakewebthings/deck.js) and [tmcw](https://github.com/tmcw) for [BIG](https://github.com/tmcw/big)
+
+All of this is under their respective MIT lisenses except big which is public domain.
