@@ -1,0 +1,9 @@
+---
+layout: 'swiss'
+title: 'multi example'
+---
+<% for document in @documents: %>
+    <%- if document.url.indexOf('/multi') is 0: %>
+        <%- document.contentRendered %>
+    <% end %>
+<% end %>
