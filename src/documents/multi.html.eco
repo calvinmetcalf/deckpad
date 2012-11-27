@@ -2,9 +2,7 @@
 layout: 'swiss'
 title: 'multi'
 ---
-<% for document in @documents: %>
-    <%- if document.url.indexOf('/multi') is 0: %>
-        <%- document.contentRendered %>
-    <% end %>
+<% for slide in @getCollection('slides').toJSON() : %>
+        <%- slide.contentRendered %>
 <% end %>
 

@@ -1,0 +1,9 @@
+# The DocPad Configuration File
+# It is simply a CoffeeScript Object which is parsed by CSON
+{
+    # We're extending the core collections object
+    collections:
+        # This collection named 'articles' fetches the documents with the 'layout' property set to 'article'
+        slides: (database) ->
+            database.findAllLive({layout: 'slide.html.eco'})
+}

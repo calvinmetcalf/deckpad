@@ -1,10 +1,12 @@
 ## DeckPad
 
+seems to actually work now
+
 deck.js presentations with docpad
 
-	npm install -g docpad
 	git clone git://github.com/calvinmetcalf/deckpad.git
 	cd deckpad
+	npm install
 	docpad run
 	
 mostly writen in jade, feel free to use something else
